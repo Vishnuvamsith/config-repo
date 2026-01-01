@@ -1,0 +1,2 @@
+eurekaClientTest:
+  uri: http://localhost:8083
