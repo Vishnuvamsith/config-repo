@@ -17,6 +17,8 @@ resilience4j:
       myCircuitBreaker:
         recordExceptions:
           - feign.FeignException
+          - java.net.ConnectException
+          - org.springframework.web.client.ResourceAccessException
         registerHealthIndicator: true
         slidingWindowSize: 5
         minimumNumberOfCalls: 3
