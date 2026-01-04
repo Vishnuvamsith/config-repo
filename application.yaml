@@ -29,4 +29,6 @@ resilience4j:
       myRetry:
         maxAttempts: 3
         waitDuration: 2000 
+server:
+  port: 8082
     
